@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recept - Zdrava Prehrana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .back-link {
+            text-decoration: none;
+            color: #2E7D32;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        h1 { color: #2E7D32; margin-bottom: 10px; }
+        .meta { color: #666; font-style: italic; font-size: 0.9rem; margin-bottom: 30px; }
+        
+        h3 { border-bottom: 2px solid #4CAF50; padding-bottom: 5px; margin-top: 30px; }
+        
+        ul, ol { margin-left: 20px; padding: 0; }
+        li { margin-bottom: 10px; }
+        
+        /* Checkbox style for ingredients */
+        ul { list-style-type: none; }
+        ul li:before { content: "☐ "; font-weight: bold; color: #4CAF50; margin-right: 5px; }
+
+        .note {
+            background-color: #fff9c4;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Nazaj na recepte</a>
+
+        <h1>Ime Recepta (Recipe Name)</h1> <img src="lecin_kruh.jpg" alt="Slika hrane" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin-bottom:20px;">
+        <div class="meta">⏱️ 15 min | 👤 2 Osebi | 🏷️ Zajtrk</div>
+
+        <hr>
+
+        <h3>🛒 Sestavine</h3>
+        <ul>
+            <li>200g moke</li>
+            <li>2 jajca</li>
+            <li>100ml mleka</li>
+            <li>Ščepec soli</li>
+        </ul>
+
+        <h3>👨‍🍳 Priprava</h3>
+        <ol>
+            <li>V veliki skledi zmešajte suhe sestavine.</li>
+            <li>Dodajte jajca in mleko ter dobro premešajte.</li>
+            <li>Pecite v ponvi na srednjem ognju.</li>
+            <li>Postrezite toplo.</li>
+        </ol>
+
+        <div class="note">
+            💡 <strong>Nasvet:</strong> Tukaj lahko napišete kakšen skrivni nasvet za kuhanje!
+        </div>
+
+    </div>
+
+</body>
+</html>
